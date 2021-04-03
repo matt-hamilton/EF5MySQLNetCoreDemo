@@ -9,4 +9,6 @@ Basic .NET Core console app working demo using the Entity Framework Core 5.0 to 
 - Entity Framework Core 5.0
 - Visual Studio 2019
 
+Generate the models using the following scaffold command
+
 Scaffold-DbContext "server=localhost;user id=[user];password=[password];persistsecurityinfo=True;database=cars_demo" MySql.EntityFrameworkCore -Context "ModelContext" -o Models
